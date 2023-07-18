@@ -1,0 +1,141 @@
+.how-to-add{
+    position: relative;
+    overflow: hidden;
+
+    .bg{
+        position: absolute;
+        top: -10%;
+    }
+   
+    .bottom-container{
+        width: 100%;
+        z-index: 99;
+
+        .bottom-container-top{
+            padding: 4rem;
+            .top{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+    
+                .left{
+                    flex: 1;
+                    h3{
+                        color: #FFF;
+                        font-size: 3.2rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 111%;
+                    }
+                }
+                .right{
+                    flex: 1;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    button{
+                        position: relative;
+                        display: flex;
+                        width: 25.2rem;
+                        height: 5.2rem;
+                        padding: 1.3rem 2.0rem;
+                        justify-content: center;
+                        align-items: center;
+                        gap: .4rem;
+                        flex-shrink: 0;
+                        color: #FFFFFF;
+                        border: none;
+        
+                        color: #FFF;
+                        font-size: 1.8rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        
+        
+                        border-radius: 4.5rem;
+                        background: #9147ff;
+                        
+                    }
+                }
+            }
+        }
+
+        .bottom-container-bottom{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            z-index: 99;
+            align-items: flex-start;
+            height: 100%;
+
+            
+            &>*{
+                position: relative;
+                border-top: .1rem solid #FFFFFF24;
+                padding: 4rem;
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                justify-content: flex-start;
+
+                height: 100%;
+
+
+                .img {
+                    object-fit: contain;
+                    width: 5rem !important;
+                    position: relative !important;
+                    height: unset !important;
+                  }
+                  
+                h2{
+                    color: #FFF;
+                    font-size: 2.9rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 111%;
+                    text-transform: uppercase;
+
+                
+
+                    span{
+                        color: #9147ff;
+                    }
+                }
+        
+                p{
+                    color: #FFF;
+                    font-size: 1.5rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+        
+                    span{
+                        color: #9147ff;
+                    }
+                }
+            
+           }
+    
+           &>:first-child{
+            border-right: .1rem solid #FFFFFF24;;
+           }
+        }
+    
+    }
+}
+
+
+@media screen and (max-width: 798px) {
+    .how-to-add{
+       .bottom-container{
+        .bottom-container-bottom{
+            flex-direction: column;
+        }
+       }
+    }
+}
