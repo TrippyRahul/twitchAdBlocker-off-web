@@ -14,8 +14,8 @@ const Navbar = () => {
           <li className={styles.logo}>
             <Link href="/">
               <Image
-                src="/favicon.svg"
-                alt="youtube-ad-blocker-logo"
+                src="/nav-logo.svg"
+                alt="logo"
                 width={96}
                 height={54}
               />
@@ -47,8 +47,8 @@ const Navbar = () => {
           <div className={styles.logo}>
             <Link href="/">
               <Image
-                src="/favicon.svg"
-                alt="youtube-ad-blocker-logo"
+                src="/nav-logo.svg"
+                alt="logo"
                 width={96}
                 height={54}
               />
