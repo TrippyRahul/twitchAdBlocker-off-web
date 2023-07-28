@@ -14,7 +14,7 @@ const Navbar = () => {
           <li className={styles.logo}>
             <Link href="/">
               <Image
-                src="./navbar-logo.svg"
+                src="/favicon.svg"
                 alt="youtube-ad-blocker-logo"
                 width={96}
                 height={54}
@@ -25,10 +25,10 @@ const Navbar = () => {
             <Link href="/">twitch Ad Blocker</Link>
           </li>
           <li className={styles.link}>
-            <Link href="/about">ABOUT </Link>
+            <Link href="#about">ABOUT </Link>
           </li>
           <li className={styles.link}>
-            <Link href="#accordian">FAQ</Link>
+            <Link href="#frequently-asked-question">FAQ</Link>
           </li>
         </ul>
 
@@ -47,7 +47,7 @@ const Navbar = () => {
           <div className={styles.logo}>
             <Link href="/">
               <Image
-                src="./navbar-logo.svg"
+                src="/favicon.svg"
                 alt="youtube-ad-blocker-logo"
                 width={96}
                 height={54}
@@ -59,10 +59,10 @@ const Navbar = () => {
               <Link href="/">twitch Ad Blocker</Link>
             </li>
             <li className={styles.link}>
-              <Link href="/about">ABOUT </Link>
+              <Link href="#about">ABOUT </Link>
             </li>
             <li className={styles.link}>
-              <Link href="#accordian">FAQ</Link>
+              <Link href="#frequently-asked-question">FAQ</Link>
             </li>
           </ul>
         </div>

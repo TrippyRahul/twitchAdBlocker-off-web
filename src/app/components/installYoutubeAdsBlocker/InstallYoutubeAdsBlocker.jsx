@@ -1,6 +1,7 @@
 import React from "react";
 import "./installYoutubeAdsBlocker.scss";
 import Image from "next/image";
+import Button from "../button/Button";
 
 const InstallYoutubeAdsBlocker = () => {
   return (
@@ -50,7 +51,7 @@ const InstallYoutubeAdsBlocker = () => {
             <li> Remove viruses with this adblock</li>
           </ul>
         </div>
-        <button>Install Extension</button>
+        <Button/>
       </div>
     </div>
   );

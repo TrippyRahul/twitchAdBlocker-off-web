@@ -2,6 +2,7 @@ import React from "react";
 import "./header.scss";
 import Navbar from "../navbar/Navbar";
 import Image from "next/image";
+import Button from "../button/Button";
 
 const Header = () => {
   return (
@@ -22,7 +23,7 @@ const Header = () => {
               you can install the extension. By using it, you can have the best
               experience on twitch adblock plus.
             </p>
-            <button>Install Extension</button>
+            <Button/>
           </div>
           <div className="right">
             <Image

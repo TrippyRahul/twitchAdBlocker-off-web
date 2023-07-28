@@ -1,10 +1,11 @@
 import React from "react";
 import "./aboutYoutubeAdBlocker.scss";
 import Image from "next/image";
+import Button from "../button/Button";
 
 const AboutYoutubeAdBlocker = () => {
   return (
-    <div className="aboutYoutubeAdBlocker">
+    <div className="aboutYoutubeAdBlocker" id="about">
       {/* <Image
         src="/howToadd-bg.svg"
         width={2091.29}
@@ -38,7 +39,7 @@ const AboutYoutubeAdBlocker = () => {
             <Image src="/about.svg" fill alt="about-logo" className="image" />
           </div>
         </div>
-        <button>Install Extention</button>
+        <Button />
       </div>
     </div>
   );

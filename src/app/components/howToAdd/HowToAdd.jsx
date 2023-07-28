@@ -1,6 +1,7 @@
 import React from "react";
 import "./howToAdd.scss";
 import Image from "next/image";
+import Button from "../button/Button";
 
 const data = [
   {
@@ -34,7 +35,7 @@ const HowToAdd = () => {
               <h3>Ways to control on twitch ad blocker browser extension?</h3>
             </div>
             <div className="right">
-              <button>Install Extention</button>
+              <Button />
             </div>
           </div>
         </div>
