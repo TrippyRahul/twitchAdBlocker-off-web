@@ -29,10 +29,9 @@ const AboutYoutubeAdBlocker = () => {
               immerse yourself in the content you love.
             </p>
             <p>
-              Twitch adblocker blocks all annoying ads on twitch, hulu, spotify
-              and youtube. But if you want a separate adblocker of these
-              extension then we have true adblocker, hulu adblocker, spotify
-              adblocker and youtube adblocker.
+              It blocks all annoying ads on it, hulu, spotify and youtube. But
+              if you want a separate adblocker, then we have true adblocker,
+              hulu adblocker, spotify adblocker and youtube adblocker.
             </p>
           </div>
           <div className="right">

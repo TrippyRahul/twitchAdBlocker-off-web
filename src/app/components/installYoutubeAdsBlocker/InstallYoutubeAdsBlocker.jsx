@@ -14,13 +14,12 @@ const InstallYoutubeAdsBlocker = () => {
         alt="install-bg"
       /> */}
       <div className="container">
-        <h2>Experience the liberty with ad free twitch</h2>
+        <h2>Experience the liberty with this addition</h2>
 
         <p>
-          This extension enhances your twitch experience by just not only
-          blocking ads but also reducing page load times, it will protect
-          against the malware,adware, and offering the safety with twitch no
-          ads.
+          This enhances your experience by just not only blocking ads but also
+          reducing page load times, it will protect against the malware,adware,
+          and offering the safety with twitch no ads.
         </p>
 
         <h3>
@@ -51,7 +50,7 @@ const InstallYoutubeAdsBlocker = () => {
             <li> Remove viruses with this adblock</li>
           </ul>
         </div>
-        <Button/>
+        <Button />
       </div>
     </div>
   );

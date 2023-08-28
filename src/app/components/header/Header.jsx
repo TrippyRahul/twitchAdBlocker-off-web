@@ -11,19 +11,17 @@ const Header = () => {
       <section className="hero">
         <div className="container">
           <div className="left">
-            <h1>
-              it is the most widely trusted adblock available today for free.
-            </h1>
+            <h1>THE MOST TRUSTED ADBLOCK FOR FREE</h1>
             <p>
-              Twitch is a popular live-streaming platform that primarily focuses
-              on. It allows streamers to broadcast their gameplay live to an
-              audience, where you can interact with them in real-time through
-              chat. But there are ads that show up between the live streaming
-              and so frustrating to watch. So, to get rid of these annoying ads,
-              you can install the extension. By using it, you can have the best
-              experience on twitch adblock plus.
+              Twitch is a popular live streaming platform that allows streamers
+              to broadcast their gameplay live to an audience. You can interact
+              with them in real time through chat. But there are some unwanted
+              ads which shows up in between and it is frustrated to watch them.
+              So, to get rid of those annoying ads, just install the extension.
+              With this, you can have the best experience on twitch adblock
+              plus.
             </p>
-            <Button/>
+            <Button />
           </div>
           <div className="right">
             <Image
