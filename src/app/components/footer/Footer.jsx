@@ -27,8 +27,12 @@ const Footer = () => {
         <div className={styles.content}>
           <div className={styles["popular-searches"]}>
             <p>
-              <span>Popular searches:</span> block twitch ads, twitch ad
-              solutions, twitch adblock reddit, and twitch ad block reddit.
+              <span>Popular searches:</span>{" "}
+              <a href="https://www.trueadblocker.net/" target="_blank">
+                trueadblocker{" "}
+              </a>{" "}
+              , block twitch ads, twitch ad solutions, twitch adblock reddit,
+              and twitch ad block reddit.
             </p>
           </div>
           <ul>
