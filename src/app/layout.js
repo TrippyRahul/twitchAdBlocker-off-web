@@ -18,6 +18,10 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" type="image/x-icon" href="/favicon.svg" />
         <link rel="canonical" href="https://www.twitchadblocker.co/" />
+        <meta
+          name="google-site-verification"
+          content="k0xb60xbns5DU13hU8JAAfkeWgy_6z_Cj5BkMJ3tVfs"
+        />
 
         <meta property="og:url" content="https://www.twitchadblocker.co/" />
         <meta property="og:type" content="website" />
