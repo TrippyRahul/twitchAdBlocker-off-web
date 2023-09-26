@@ -45,12 +45,7 @@ const Use = () => {
               </p>
             </div>
             <div className="right">
-              <Image
-                src="./youtube-logo.svg"
-                alt="youtube-logo"
-                fill
-                className="image"
-              />
+              <Image src="/1.svg" alt="youtube-logo" fill className="image" />
             </div>
           </div>
           <div className="bottom">
@@ -64,7 +59,6 @@ const Use = () => {
                   additional functionality such as blocking ads and viruses.
                 </p>
               </div>
-
             </div>
           </div>
         </div>
