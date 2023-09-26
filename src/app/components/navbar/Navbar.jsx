@@ -63,6 +63,9 @@ const Navbar = () => {
             <li className={styles.link}>
               <Link href="#frequently-asked-question">FAQ</Link>
             </li>
+            <li className={styles.link}>
+              <Link href="/support">SUPPORT</Link>
+            </li>
           </ul>
         </div>
       )}
