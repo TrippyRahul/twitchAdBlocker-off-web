@@ -51,12 +51,12 @@
             }
             .right{
                 z-index: 99;
-
-                flex: 1;
+                flex: .8;
+                // border: 1px solid red;
                 
                 .image {
                     object-fit: contain;
-                    width: 100% !important;
+                    // width: 100% !important;
                     position: relative !important;
                     height: unset !important;
                   }
@@ -78,6 +78,10 @@
         .container{
            .content{
             flex-direction: column;
+
+            .right{
+                display: none;
+            }
            }
         }
     }

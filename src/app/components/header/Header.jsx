@@ -24,12 +24,7 @@ const Header = () => {
             <Button />
           </div>
           <div className="right">
-            <Image
-              src="./header-main.svg"
-              alt="header-main"
-              fill
-              className="image"
-            />
+            <Image src="3.svg" alt="header-main" fill className="image" />
           </div>
         </div>
       </section>
