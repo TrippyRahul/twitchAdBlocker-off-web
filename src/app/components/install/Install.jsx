@@ -6,7 +6,7 @@ import Image from "next/image";
 const Install = () => {
   const handleFirefoxButtonClick = () => {
     const redirectURL =
-      "https://chrome.google.com/webstore/detail/trueadblocker/bfnbbojgkemfejhnedknbidfceobmmek?utm_source=ext_sidebar&hl=en-US";
+      "https://chrome.google.com/webstore/detail/twitch-adblocker/iaokppbbpahmidkimkdfmkmddmcoegjj/related";
     window.open(redirectURL, "_blank");
   };
   return (
