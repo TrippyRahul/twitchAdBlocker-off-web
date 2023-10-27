@@ -16,14 +16,14 @@ const Header = () => {
             </h1>
             <p>
               Twitch est la plateforme de streaming la plus connue au monde.
-              C'est le meilleur moyen de diffuser votre contenu préféré sans
+              C&apos;est le meilleur moyen de diffuser votre contenu préféré sans
               aucun problème. Mais il y a des publicités frustrantes et ces
               publicités sont tellement irritantes qu’elles gâchent notre
               moment. Ici, vous pouvez interagir avec votre joueur préféré en
               temps réel. En téléchargeant et en installant simplement, vous
               pouvez bloquer tous les types de publicités, y compris les
               publicités vidéo, les bannières publicitaires, les fenêtres
-              contextuelles et bien d'autres. La meilleure partie est que c’est
+              contextuelles et bien d&apos;autres. La meilleure partie est que c’est
               gratuit. Donc, bloquer pub Twitch avec Twitch adblock.
             </p>
             <Button />
@@ -39,7 +39,7 @@ const Header = () => {
           <div className="left">
             <p>
               Mais savez-vous pourquoi il y a autant de publicités sur Twitch ?
-              C'est parce que Twitch s'appuie sur la publicité pour générer des
+              C&apos;est parce que Twitch s&apos;appuie sur la publicité pour générer des
               revenus. Twitch affiche différents types de publicités telles que
               des publicités pré-roll qui sont diffusées avant la diffusion, des
               publicités mil roll qui sont diffusées pendant les intervalles et

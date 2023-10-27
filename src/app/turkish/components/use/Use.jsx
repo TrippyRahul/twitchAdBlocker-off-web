@@ -12,10 +12,10 @@ const Use = () => {
             <p>
               Sadece aramanız gerektiğinden bu çok basit bir işlemdir. adblock
               Twitch ve tarayıcınıza indirin. Yüklemeden sonra, twitch adblock
-              banner reklamlar, video reklamlar, pop-up'lar ve çok daha fazlası
-              dahil olmak üzere tüm reklam türlerini ortadan kaldırarak otomatik
-              olarak çalışacaktır. En iyi yanı, Firefox ve Chrome dahil her
-              tarayıcıda çalışmasıdır.
+              banner reklamlar, video reklamlar, pop-up&apos;lar ve çok daha
+              fazlası dahil olmak üzere tüm reklam türlerini ortadan kaldırarak
+              otomatik olarak çalışacaktır. En iyi yanı, Firefox ve Chrome dahil
+              her tarayıcıda çalışmasıdır.
             </p>
             <p>
               twitch reklam engelleyici yaygın olarak en güvenilir olanıdır

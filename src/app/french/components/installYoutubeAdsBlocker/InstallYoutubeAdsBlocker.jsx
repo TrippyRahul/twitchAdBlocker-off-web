@@ -7,15 +7,15 @@ const InstallYoutubeAdsBlocker = () => {
   return (
     <div className="installYoutubeAdsBlocker">
       <div className="container">
-        <h2>Qu'entendez-vous par adblock for Twitch?</h2>
+        <h2>Qu&apos;entendez-vous par adblock for Twitch?</h2>
         <p>
           Twitch ad block est une extension de navigateur qui permet aux
           utilisateurs de bloquer toutes les publicités ennuyeuses de leurs
           écrans. Mais bloqueur de pub twitch est spécialement conçu pour Twitch
           où vous ne pouvez éliminer que les publicités Twitch. Cela fonctionne
           très bien et empêche le chargement de tous les éléments publicitaires.
-          Vous pouvez utiliser cette extension gratuitement. Alors qu'est-ce que
-          tu attends? installez l'extension maintenant et bloque pub twitch.
+          Vous pouvez utiliser cette extension gratuitement. Alors qu&apos;est-ce que
+          tu attends? installez l&apos;extension maintenant et bloque pub twitch.
         </p>
 
         <h2>Comment fonctionne cette extension</h2>
@@ -34,7 +34,7 @@ const InstallYoutubeAdsBlocker = () => {
 
         <p>
           Vous pouvez profiter de votre contenu le plus apprécié sur Twitch sans
-          être dérangé, car l'utilisation du bloc de publicité Twitch vous
+          être dérangé, car l&apos;utilisation du bloc de publicité Twitch vous
           aidera à rendre votre expérience encore plus fluide. Il a la meilleure
           politique de confidentialité, il ne fournit aucune de vos données
           privées et protège votre navigateur des trackers tiers. Vous pouvez
@@ -62,10 +62,10 @@ const InstallYoutubeAdsBlocker = () => {
               votre écran.
             </li>
             <li>
-              C'est gratuit et vous pouvez éliminer les publicités gratuitement
+              C&apos;est gratuit et vous pouvez éliminer les publicités gratuitement
             </li>
             <li>
-              C'est le moyen le plus sûr de bloquer les publicités car il ne
+              C&apos;est le moyen le plus sûr de bloquer les publicités car il ne
               divulgue aucune de vos informations personnelles.
             </li>
           </ul>

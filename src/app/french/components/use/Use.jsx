@@ -8,7 +8,7 @@ const Use = () => {
       <div className="container">
         <div className="top">
           <div className="left">
-            <h2>Qu'entendez-vous par adblock for Twitch?</h2>
+            <h2>Qu&apos;entendez-vous par adblock for Twitch?</h2>
             <p>
               Twitch ad block est une extension de navigateur qui permet aux
               utilisateurs de bloquer toutes les publicités ennuyeuses de leurs
@@ -16,7 +16,7 @@ const Use = () => {
               Twitch où vous ne pouvez éliminer que les publicités Twitch. Cela
               fonctionne très bien et empêche le chargement de tous les éléments
               publicitaires. Vous pouvez utiliser cette extension gratuitement.
-              Alors qu'est-ce que tu attends? installez l'extension maintenant
+              Alors qu&apos;est-ce que tu attends? installez l&apos;extension maintenant
               et bloque pub twitch.
             </p>
           </div>
