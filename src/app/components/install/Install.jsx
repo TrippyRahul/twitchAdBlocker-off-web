@@ -1,14 +1,8 @@
-"use client";
 import React from "react";
 import "./install.scss";
 import Image from "next/image";
 
 const Install = () => {
-  const handleFirefoxButtonClick = () => {
-    const redirectURL =
-      "https://chrome.google.com/webstore/detail/twitch-adblocker/iaokppbbpahmidkimkdfmkmddmcoegjj/related";
-    window.open(redirectURL, "_blank");
-  };
   return (
     <div className="install">
       <div className="container">
@@ -26,16 +20,17 @@ const Install = () => {
             effectively removes or hides the ads from your view, and lets you
             enjoy the live streaming without interruptions.
           </p>
-          <button onClick={handleFirefoxButtonClick}>
-            {" "}
-            <Image
-              src="/ri_firefox-fill.svg"
-              width={30}
-              height={30}
-              alt="firefox-logo"
-            />
-            Add to Firefox
-          </button>
+          <a href="https://chrome.google.com/webstore/detail/twitch-adblocker/iaokppbbpahmidkimkdfmkmddmcoegjj/related">
+            <button>
+              <Image
+                src="/ri_firefox-fill.svg"
+                width={30}
+                height={30}
+                alt="firefox-logo"
+              />
+              Add to Firefox
+            </button>
+          </a>
         </div>
       </div>
     </div>
