@@ -2,8 +2,6 @@ import Use from "./components/use/Use";
 import InstallYoutubeAdsBlocker from "./components/installYoutubeAdsBlocker/InstallYoutubeAdsBlocker";
 import AboutYoutubeAdBlocker from "./components/aboutYoutubeAdBlocker/AboutYoutubeAdBlocker";
 import Header from "./components/header/Header";
-import Functionality from "./components/functionality/Functionality";
-import HowToAdd from "./components/howToAdd/HowToAdd";
 
 export const metadata = {
   title:
@@ -22,11 +20,51 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main>
-      <Header />
-      {/* <Use /> */}
-      <InstallYoutubeAdsBlocker />
-      <AboutYoutubeAdBlocker />
-    </main>
+    <html lang="fr">
+      <head>
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/french"
+          hrefLang="fr-fr"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/french"
+          hrefLang="fr-be"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/french"
+          hrefLang="fr-ca"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/french"
+          hrefLang="fr-ch"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/french"
+          hrefLang="fr-mc"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/french"
+          hrefLang="fr-lu"
+        />
+      </head>
+      <body>
+        <main>
+          <Header />
+          <InstallYoutubeAdsBlocker />
+          <AboutYoutubeAdBlocker />
+        </main>
+      </body>
+    </html>
   );
 }

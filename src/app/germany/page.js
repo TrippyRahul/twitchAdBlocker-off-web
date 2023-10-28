@@ -20,12 +20,41 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main>
-      <Header />
-      <Use />
-      <HowToAdd />
-      <InstallYoutubeAdsBlocker />
-      <AboutYoutubeAdBlocker />
-    </main>
+    <html lang="de">
+      <head>
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/germany"
+          hrefLang="de-de"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/germany"
+          hrefLang="de-lu"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/germany"
+          hrefLang="de-li"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/germany"
+          hrefLang="de-at"
+        />
+      </head>
+      <body>
+        <main>
+          <Header />
+          <Use />
+          <HowToAdd />
+          <InstallYoutubeAdsBlocker />
+          <AboutYoutubeAdBlocker />
+        </main>
+      </body>
+    </html>
   );
 }

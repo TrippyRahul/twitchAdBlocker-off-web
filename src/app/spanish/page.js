@@ -20,11 +20,82 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main>
-      <Header />
-      <Use />
-      <InstallYoutubeAdsBlocker />
-      <AboutYoutubeAdBlocker />
-    </main>
+    <html href="es">
+      <head>
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/spanish"
+          hrefLang="es-es"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/spanish"
+          hrefLang="es-ar"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/spanish"
+          hrefLang="es-co"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/spanish"
+          hrefLang="es-pe"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/spanish"
+          hrefLang="es-mx"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/spanish"
+          hrefLang="es-cl"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/spanish"
+          hrefLang="es-uy"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/spanish"
+          hrefLang="es-cr"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/spanish"
+          hrefLang="es-bo"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/spanish"
+          hrefLang="es-cu"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.twitchadblocker.co/spanish"
+          hrefLang="es-ma"
+        />
+      </head>
+      <body>
+        <main>
+          <Header />
+          <Use />
+          <InstallYoutubeAdsBlocker />
+          <AboutYoutubeAdBlocker />
+        </main>
+      </body>
+    </html>
   );
 }
