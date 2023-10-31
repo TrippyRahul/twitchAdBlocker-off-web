@@ -2,6 +2,7 @@ import Use from "./components/use/Use";
 import InstallYoutubeAdsBlocker from "./components/installYoutubeAdsBlocker/InstallYoutubeAdsBlocker";
 import AboutYoutubeAdBlocker from "./components/aboutYoutubeAdBlocker/AboutYoutubeAdBlocker";
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 export const metadata = {
   title: " Tarama hızınızı artırın Twitch adblock",
@@ -68,6 +69,7 @@ export default function Home() {
           <Use />
           <InstallYoutubeAdsBlocker />
           <AboutYoutubeAdBlocker />
+          <Footer />
         </main>
       </body>
     </html>

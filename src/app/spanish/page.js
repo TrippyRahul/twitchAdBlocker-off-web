@@ -4,6 +4,7 @@ import AboutYoutubeAdBlocker from "./components/aboutYoutubeAdBlocker/AboutYoutu
 import Header from "./components/header/Header";
 import Functionality from "./components/functionality/Functionality";
 import HowToAdd from "./components/howToAdd/HowToAdd";
+import Footer from "./components/footer/Footer";
 
 export const metadata = {
   title: " Tenga una experiencia de transmisión ilimitada con Twitch adblock",
@@ -94,6 +95,7 @@ export default function Home() {
           <Use />
           <InstallYoutubeAdsBlocker />
           <AboutYoutubeAdBlocker />
+          <Footer />
         </main>
       </body>
     </html>

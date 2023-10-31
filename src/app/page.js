@@ -6,6 +6,7 @@ import InstallYoutubeAdsBlocker from "./components/installYoutubeAdsBlocker/Inst
 import Accordian from "./components/accordian/Accordian";
 import AboutYoutubeAdBlocker from "./components/aboutYoutubeAdBlocker/AboutYoutubeAdBlocker";
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Install />
       <Accordian />
       <AboutYoutubeAdBlocker />
+      <Footer />
     </main>
   );
 }
